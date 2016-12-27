@@ -9,6 +9,6 @@ Upload `edit_page_with_git.html.twig` and `edit_page_with_git.yaml` files to you
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](https://github.com/trilbymedia/grav-plugin-git-sync).
 
 ## Page Options for All Pages
-All Grav pages support the following additional options:
+All Grav pages now also support the following option:
 ```
 gitRepoEditURL: https://github.com/hibbitts-design/grav-skeleton-course-hub/tree/master/pages/01.home   # to override the automatically calculated Git Repository URL
