@@ -1,4 +1,4 @@
-# Gantry 5 Particle for Grav
+# Gantry 5 'Edit this Page' Particle for Grav
 
 Particles are small, modular blocks with preset scripting that enable you to add elements to your Grav Gantry 5 pages.
 
