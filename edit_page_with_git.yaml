@@ -14,7 +14,7 @@ form:
     gitEditIcon:
         type: input.text
         size: small
-        label: Edit Page Link Font Awesome Icon
+        label: Font Awesome Icon
         default: 'github'
         help: Determines the default Font Awesome icon used for Edit Page links.
         validate:
