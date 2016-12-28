@@ -4,7 +4,7 @@
 {% if grav.page.header.gitRepoEditURL %}
   {% set gitRepoEditURL = grav.page.header.gitRepoEditURL %}
 {% else %}
-  {% set gitRepoEditURL = particle.gitRepoTreeURL ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
+  {% set gitRepoEditURL = particle.gitRepoEditTreeURL ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
 {% endif %}
 <div class="edit_page_with_git {{ particle.css.class }}">
   <a href="{{ gitRepoEditURL }}" title="{{ particle.gitRepoEditText }}" target="_blank">
