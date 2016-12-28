@@ -7,9 +7,10 @@
   {% set gitRepoEditURL = particle.gitRepoTreeURL ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
 {% endif %}
 <div class="edit_page_with_git {{ particle.css.class }}">
-  <a href="{{ gitRepoEditURL }}" title="{{ particle.gitRepoEditText }}" target="blank">
+  <a href="{{ gitRepoEditURL }}" title="{{ particle.gitRepoEditText }}" target="_blank">
     {% if particle.gitRepoEditIcon %}
       <i class="fa fa-{{ particle.gitRepoEditIcon }}" aria-hidden="true"></i>
     {% endif %}
     {{ particle.gitRepoEditText }}</a>
+</div>
 {% endblock %}

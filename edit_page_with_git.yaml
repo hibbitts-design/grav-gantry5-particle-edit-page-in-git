@@ -4,14 +4,16 @@ type: particle
 
 form:
   fields:
-    gitEditText:
+    gitRepoEditText:
       type: input.text
       size: medium
       label: Link Text
       default: 'Edit this Page'
-      description: Customize the Edit Page link text.
+      help: Determines the text used for Edit Page links.
+      validate:
+          type: text
 
-    gitEditIcon:
+    gitRepoEditIcon:
         type: input.text
         size: small
         label: Font Awesome Icon
@@ -20,7 +22,7 @@ form:
         validate:
             type: text
 
-    gitEditTreeURL:
+    gitRepoEditTreeURL:
         type: text
         size: large
         label: Git Repository Tree URL
