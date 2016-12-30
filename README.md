@@ -8,6 +8,8 @@ Upload `edit_page_with_git.html.twig` and `edit_page_with_git.yaml` files to you
 
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](https://github.com/trilbymedia/grav-plugin-git-sync).
 
+![alt tag](https://raw.githubusercontent.com/hibbitts-design/grav-gantry5-particle-edit-page-with-git/edit-this-page-options.png)
+
 ## Page Options
 Once the particle is installed, Grav pages will support the following Header/FrontMatter option:
 
