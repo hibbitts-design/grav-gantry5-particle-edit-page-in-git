@@ -1,16 +1,18 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block particle %}
-{% if grav.page.header.gitRepoEditURL %}
-  {% set gitRepoEditURL = grav.page.header.gitRepoEditURL %}
-{% else %}
-  {% set gitRepoEditURL = particle.gitRepoEditTreeURL ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
-{% endif %}
-<div class="edit_page_with_git {{ particle.css.class }}">
-  <a href="{{ gitRepoEditURL }}" title="{{ particle.gitRepoEditText }}" target="_blank">
-    {% if particle.gitRepoEditIcon %}
-      <i class="fa fa-{{ particle.gitRepoEditIcon }}" aria-hidden="true"></i>
-    {% endif %}
-    {{ particle.gitRepoEditText }}</a>
-</div>
+{% if not grav.page.header.hide_git_repo_edit_link %}
+  {% if grav.page.header.git_repo_edit_url %}
+    {% set git_repo_edit_url = grav.page.header.git_repo_edit_url %}
+  {% else %}
+    {% set git_repo_edit_url = particle.git_repo_edit_tree_url ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
+  {% endif %}
+  <div class="edit_page_with_git {{ particle.css.class }}">
+    <a href="{{ git_repo_edit_url }}" title="{{ particle.git_repo_edit_text }}" target="_blank">
+      {% if particle.git_repo_edit_icon %}
+        <i class="fa fa-{{ particle.git_repo_edit_icon }}" aria-hidden="true"></i>
+      {% endif %}
+      {{ particle.git_repo_edit_text }}</a>
+  </div>
+  {% endif %}
 {% endblock %}

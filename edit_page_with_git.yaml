@@ -4,7 +4,7 @@ type: particle
 
 form:
   fields:
-    gitRepoEditText:
+    git_repo_edit_text:
       type: input.text
       size: medium
       label: Link Text
@@ -13,7 +13,7 @@ form:
       validate:
           type: text
 
-    gitRepoEditIcon:
+    git_repo_edit_icon:
         type: input.text
         size: small
         label: Font Awesome Icon
@@ -22,7 +22,7 @@ form:
         validate:
             type: text
 
-    gitRepoEditTreeURL:
+    git_repo_edit_tree_url:
         type: text
         size: large
         label: Git Repository Tree URL
