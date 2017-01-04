@@ -1,5 +1,5 @@
 name: Edit Page in Git
-description: Displays a link to Grav pages in a Git Repo on the front end.
+description: Displays a link to Grav pages in a Git Repo on the front-end.
 type: particle
 
 form:
