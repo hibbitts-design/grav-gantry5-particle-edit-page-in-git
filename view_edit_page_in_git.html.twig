@@ -12,7 +12,7 @@
     {% if grav.page.header.git_repo_link_url %}
       {% set git_repo_link_url = grav.page.header.git_repo_link_url %}
     {% else %}
-      {% set git_repo_link_url = particle.git_repo_tree_url ~ ('/'~grav.page.filePathClean)|replace({'/user/':''}) %}
+      {% set git_repo_link_url = particle.git_repo_tree_url ~ ('/'~grav.page.filePathClean)|replace({'/user/':'/'}) %}
     {% endif %}
     <div class="view_edit_page_in_git {{ particle.css.class }}">
       <a href="{{ git_repo_link_url }}" title="{{ particle.git_repo_link_text }}" target="_blank">
