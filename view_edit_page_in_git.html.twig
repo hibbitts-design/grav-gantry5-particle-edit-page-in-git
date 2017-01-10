@@ -8,7 +8,7 @@
       Configure 'View/Edit Page in Git'</a>
   </div>
 {% else %}
-  {% if not grav.page.header.hide_git_repo_link %}
+  {% if not grav.page.header.hide_git_repo_link and (not (grav.page.slug in grav.config.site.hide_git_repo_link_pages)) %}
     {% if grav.page.header.git_repo_link_url %}
       {% set git_repo_link_url = grav.page.header.git_repo_link_url %}
     {% else %}
