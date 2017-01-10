@@ -12,9 +12,18 @@ The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](htt
 !['Edit this Page' options](https://github.com/hibbitts-design/grav-gantry5-particle-edit-page-in-git/blob/master/view_edit-this-page-options.png?raw=true)
 
 ## Page Options
-Once the particle is installed, Grav pages will support the following Header/FrontMatter option:
+Once the particle is installed, Grav pages will support the following Page Header/FrontMatter option:
 
 ```
 hide_git_repo_link: true    # hide Git Repository edit link for this page  
 git_repo_link_url: https://github.com/hibbitts-design/grav-skeleton-course-hub/tree/master/pages/01.home   # to override the automatically calculated Git Repository URL
+```
+
+## Site Options
+Once the particle is installed, Grav pages will support the following Site Config option:
+
+```
+hide_git_repo_link_pages:    # list of pages to hide Git Repository edit link on
+    - login
+    - logout                        
 ```
