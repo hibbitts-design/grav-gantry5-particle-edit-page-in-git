@@ -15,7 +15,7 @@ The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](htt
 Once the particle is installed, Grav pages will support the following Page Header/FrontMatter option:
 
 ```
-hide_git_repo_link: true    # hide Git Repository edit link for this page  
+hide_git_repo_link: true    # hide Git Repository edit link for this page, up to but not including the '/page/...' For example, 'https://github.com/paulhibbitts/grav-skeleton-gantry-oer-content/tree/master'.  
 git_repo_link_url: https://github.com/hibbitts-design/grav-skeleton-course-hub/tree/master/pages/01.home   # to override the automatically calculated Git Repository URL
 ```
 
