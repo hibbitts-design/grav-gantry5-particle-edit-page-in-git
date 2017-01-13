@@ -1,19 +1,7 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block particle %}
-{% if particle.git_repo_tree_url is empty %}
-  {% if config.plugins['git-sync'].enabled and config.plugins['git-sync'].repository is empty %}
-    <div class="view_edit_page_in_git {{ particle.css.class }}">
-    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/plugins/git-sync' %}
-    <a href="{{ admin_panel_appearance_url }}" title="Configure Git Sync Plugin (Step 1 of 2)">
-    <i class="fa fa-bell" aria-hidden="true"></i> Configure Git Sync Plugin (Step 1 of 2)</a>
-    </div>
-  {% else %}
-    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/config/site' %}
-    <a href="{{ admin_panel_appearance_url }}" title="Configure Edit Page in Git Link (Step 2 of 2)">
-    <i class="fa fa-bell" aria-hidden="true"></i> Configure Edit Page in Git Link (Step 2 of 2)</a>
-  {% endif %}
-{% else %}
+{% if particle.git_repo_tree_url is not empty %}
   {% if not grav.page.header.hide_git_repo_link and (not (grav.page.slug in grav.config.site.hide_git_repo_link_pages)) %}
     {% if grav.page.header.git_repo_link_url %}
       {% set git_repo_link_url = grav.page.header.git_repo_link_url %}
@@ -27,6 +15,18 @@
         {% endif %}
         {{ particle.git_repo_link_text }}</a>
     </div>
+  {% endif %}
+{% else %}
+  {% if config.plugins['git-sync'].enabled and config.plugins['git-sync'].repository is empty %}
+    <div class="view_edit_page_in_git {{ particle.css.class }}">
+    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/plugins/git-sync' %}
+    <a href="{{ admin_panel_appearance_url }}" title="Configure Git Sync Plugin (Step 1 of 2)">
+    <i class="fa fa-bell" aria-hidden="true"></i> Configure Git Sync Plugin (Step 1 of 2)</a>
+    </div>
+  {% else %}
+    {% set admin_panel_appearance_url = grav.base_url ~ '/admin/config/site' %}
+    <a href="{{ admin_panel_appearance_url }}" title="Configure Edit Page in Git Link (Step 2 of 2)">
+    <i class="fa fa-bell" aria-hidden="true"></i> Configure Edit Page in Git Link (Step 2 of 2)</a>
   {% endif %}
 {% endif %}
 {% endblock %}
