@@ -18,7 +18,7 @@
   {% endif %}
 {% else %}
   {% if not grav.page.header.hide_git_repo_link %}
-    {% if  not config.plugins['git-sync'].enabled  %}
+    {% if not config.plugins['git-sync'].enabled  %}
       <div class="view_edit_page_in_git {{ particle.css.class }}">
       {% set admin_panel_appearance_url = grav.base_url ~ '/admin/plugins/' %}
       <a href="{{ admin_panel_appearance_url }}" title="Add/Setup Git Sync Plugin (Step 1 of 2)">
