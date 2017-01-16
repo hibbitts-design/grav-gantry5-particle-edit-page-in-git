@@ -9,7 +9,7 @@ Upload `edit_view_page_in_git.html.twig` and `edit_view_page_in_git.yaml` files 
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](http://www.hibbittsdesign.org/blog/posts/2016-12-22-touchdown-seamless-2-way-syncing-arrives-for-grav).
 
 ## Particle Options
-!['Edit this Page' options](https://github.com/hibbitts-design/grav-gantry5-particle-edit-page-in-git/blob/master/view_edit-this-page-options.png?raw=true)
+!['Edit this Page' options](https://github.com/hibbitts-design/grav-gantry5-particle-edit-page-in-git/blob/master/edit-view-this-page-options.png?raw=true)
 
 ## Page Options
 Once the particle is installed, Grav pages will support the following Page Header/FrontMatter option:
