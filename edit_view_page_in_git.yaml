@@ -9,7 +9,8 @@ form:
       size: medium
       label: Link Text
       default: 'Edit this Page'
-      help: Determines the text used for Git repository page links.
+      help: Enter the text label for the link.
+      description: Enter the text to be used for the link.
       validate:
           type: text
 
@@ -18,7 +19,8 @@ form:
         size: small
         label: Font Awesome Icon
         default: 'github'
-        help: Determines the default Font Awesome icon used for Git repository page links.
+        help: Enter the short name of the Font Awesome icon for the link, for example 'GitLab'.
+        description: Enter the short name of the Font Awesome icon for the link, for example 'GitLab'.
         validate:
             type: text
 
@@ -26,6 +28,7 @@ form:
         type: text
         size: large
         label: Git Repository Tree URL
-        help: Enter the URL for the Git repository that contains your Grav site pages.
+        help: URL path to Git repository, up to but not including '/pages/...'.
+        description: URL path to Git repository, up to but not including '/pages/...'.
         validate:
             type: URL
