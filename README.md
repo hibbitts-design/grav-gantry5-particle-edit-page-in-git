@@ -1,4 +1,4 @@
-# Gantry 5 'View/Edit Page in Git' Particle for Grav
+# Gantry 5 'Edit/View Page in Git' Particle for Grav
 
 Particles are small, modular blocks with preset scripting that enable you to add elements to your Grav Gantry 5 pages.
 
