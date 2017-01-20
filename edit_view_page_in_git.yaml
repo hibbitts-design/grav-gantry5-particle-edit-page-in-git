@@ -19,8 +19,8 @@ form:
         size: small
         label: Font Awesome Icon
         default: 'github'
-        help: Enter the short name of the Font Awesome icon for the link, for example 'GitLab'.
-        description: Enter the short name of the Font Awesome icon for the link, for example 'GitLab'.
+        help: Enter the short name of the Font Awesome icon for the link, for example 'gitlab'.
+        description: Enter the short name of the Font Awesome icon for the link, for example 'gitlab'.
         validate:
             type: text
 
