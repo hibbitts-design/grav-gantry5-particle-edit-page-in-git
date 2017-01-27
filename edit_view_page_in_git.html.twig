@@ -8,12 +8,17 @@
     {% else %}
       {% set git_repo_link_url = particle.git_repo_tree_url ~ ('/'~grav.page.filePathClean)|replace({'/user/':'/'}) %}
     {% endif %}
+    {% if grav.page.header.git_repo_link_text %}
+      {% set git_repo_link_text = grav.page.header.git_repo_link_text %}
+    {% else %}
+      {% set git_repo_link_text = particle.git_repo_link_text %}
+    {% endif %}
     <div class="view_edit_page_in_git {{ particle.css.class }}">
-      <a href="{{ git_repo_link_url }}" title="{{ particle.git_repo_link_text }}" target="_blank">
+      <a href="{{ git_repo_link_url }}" title="{{ git_repo_link_text }}" target="_blank">
         {% if particle.git_repo_link_icon %}
           <i class="fa fa-{{ particle.git_repo_link_icon }}" aria-hidden="true"></i>
         {% endif %}
-        {{ particle.git_repo_link_text }}</a>
+        {{ git_repo_link_text }}</a>
     </div>
   {% endif %}
 {% else %}
