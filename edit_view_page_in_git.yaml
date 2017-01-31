@@ -5,6 +5,11 @@ icon: fa-git
 
 form:
   fields:
+    infotext:
+      type: separator.note
+      class: alert alert-info
+      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then configure this Particle.</p>'
+
     git_repo_link_text:
       type: input.text
       size: medium
@@ -28,7 +33,7 @@ form:
     git_repo_tree_url:
         type: text
         size: large
-        label: Git Repository Tree URL
+        label: Git Repository Tree URL (not including '/pages/...')
         help: URL path to Git repository, up to but not including '/pages/...'.
         description: URL path to Git repository, up to but not including '/pages/...'.
         validate:
@@ -37,4 +42,4 @@ form:
     infotext:
       type: separator.note
       class: none
-      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then return here.<br><br>For the &#39;Git Repository Tree URL&#39; field use the path to your Git repository, up to but not including &#39;/pages/....&#39;.</p>'
+      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then setup this Particle.</p>'
