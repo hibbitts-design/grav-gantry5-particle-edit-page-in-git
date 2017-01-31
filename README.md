@@ -31,3 +31,5 @@ hide_git_repo_link_pages:    # list of pages to hide Git Repository edit link on
     - login
     - logout                        
 ```
+
+This Particle is also included in the [Grav OER Content Space Skeleton](https://github.com/hibbitts-design/grav-skeleton-oer-content-space).
