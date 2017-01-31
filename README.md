@@ -12,7 +12,7 @@ The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](htt
 [!['Edit/View in Git' Particle Setup](video.png)](http://www.youtube.com/watch?v=4cHwJ27jqXM "'Edit/View in Git' Particle Setup")  
 
 ## Particle Options
-!['Edit this Page' options](https://github.com/hibbitts-design/grav-gantry5-particle-edit-page-in-git/blob/master/edit-view-this-page-options.png?raw=true)
+!['Edit this Page' options](/edit-view-this-page-options.png)
 
 ## Page Options
 Once the particle is installed, Grav pages will support the following Page Header/FrontMatter option:
