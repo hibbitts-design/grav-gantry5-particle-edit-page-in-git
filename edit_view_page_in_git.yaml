@@ -31,8 +31,7 @@ form:
             type: text
 
     git_repo_tree_url:
-        type: text
-        size: large
+        type: input.url
         label: Git Repository Tree URL (not including '/pages/...')
         help: URL path to Git repository, up to but not including '/pages/...'.
         description: URL path to Git repository, up to but not including '/pages/...'.
