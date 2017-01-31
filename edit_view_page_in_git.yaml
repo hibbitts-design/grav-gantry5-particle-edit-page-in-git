@@ -8,7 +8,7 @@ form:
     infotext:
       type: separator.note
       class: alert alert-info
-      content: '<p>Have you installed and setup the Git Sync plugin? If not, first do that and then configure this Particle.</p>'
+      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then configure this Particle.</p>'
 
     git_repo_link_text:
       type: input.text
