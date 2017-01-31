@@ -37,4 +37,4 @@ form:
     infotext:
       type: separator.note
       class: none
-      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then return here.<br><br>For the &#39;Git Repository Tree URL&#39; field use the path to Git repository, up to but not including &#39;/pages/....&#39;.</p>'
+      content: '<p>Have you installed and setup the Git Sync plugin? If not, do that first and then return here.<br><br>For the &#39;Git Repository Tree URL&#39; field use the path to your Git repository, up to but not including &#39;/pages/....&#39;.</p>'
