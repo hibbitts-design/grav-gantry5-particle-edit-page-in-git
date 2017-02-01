@@ -9,7 +9,7 @@ Upload `edit_view_page_in_git.html.twig` and `edit_view_page_in_git.yaml` files 
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](http://www.hibbittsdesign.org/blog/posts/2016-12-22-touchdown-seamless-2-way-syncing-arrives-for-grav).
 
 ## Grav 'Edit/View in Git' Particle Setup
-[!['Edit/View in Git' Particle Setup](video.png)](http://www.youtube.com/watch?v=4cHwJ27jqXM "'Edit/View in Git' Particle Setup")  
+[!['Edit/View in Git' Particle Setup](https://github.com/paulhibbitts/github-repo-images/blob/master/edit-view-this-page-setup-video.png?raw=true)](http://www.youtube.com/watch?v=4cHwJ27jqXM "'Edit/View in Git' Particle Setup")  
 
 ## Particle Options
 !['Edit this Page' options](/edit-view-this-page-options.png)
