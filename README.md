@@ -4,7 +4,10 @@ Particles are small, modular blocks with preset scripting that enable you to add
 
 ## Installing the Particle
 
-Upload `edit_view_page_in_git.html.twig` and `edit_view_page_in_git.yaml` files to your `/user/themes/THEME_DIR/custom/particles` directory. For example, to install in the default Grav Gantry 5 theme Hydrogen copy the two particle files to `/user/themes/g5_hydrogen/custom/particles`. If the `custom` folder does not exist create it.
+1. Open the folder of your active Gantry theme. For example, if you are using the Hydrogen theme open the folder `/user/themes/g5_hydrogen/`.
+2. If a `custom` folder already exists open it, otherwise create it.
+3. If a `particles` folder already exists open it, otherwise create it.
+4. Upload `edit_view_page_in_git.html.twig` and `edit_view_page_in_git.yaml` files into the `particles` folder. For example, if you are using the Hydrogen theme copy the two particle files into `/user/themes/g5_hydrogen/custom/particles`.
 
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](http://www.hibbittsdesign.org/blog/posts/2016-12-22-touchdown-seamless-2-way-syncing-arrives-for-grav).
 
