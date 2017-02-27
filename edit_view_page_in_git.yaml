@@ -5,6 +5,12 @@ icon: fa-git
 
 form:
   fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable Edit/View Page in Git particle.
+      default: true
+
     infotext:
       type: separator.note
       class: alert alert-info
