@@ -12,7 +12,7 @@ Particles are small, modular blocks with preset scripting that enable you to add
 The perfect companion to this Gantry 5 particle is the [Grav GitSync Plugin](http://www.hibbittsdesign.org/blog/posts/2016-12-22-touchdown-seamless-2-way-syncing-arrives-for-grav).
 
 ## Grav 'Edit/View in Git' Particle Setup
-[!['Edit/View in Git' Particle Setup](https://github.com/paulhibbitts/github-repo-images/blob/master/edit-view-this-page-setup-video.png?raw=true)](http://www.youtube.com/watch?v=4cHwJ27jqXM "'Edit/View in Git' Particle Setup")  
+https://www.youtube.com/watch?v=4cHwJ27jqXM
 
 ## Particle Options
 !['Edit this Page' options](https://github.com/paulhibbitts/github-repo-images/blob/master/edit-view-this-page-options.png?raw=true)
