@@ -26,13 +26,4 @@ git_repo_link_url: https://github.com/hibbitts-design/grav-skeleton-course-hub/t
 git_repo_link_text: View in Markdown   # to override the default URL text label
 ```
 
-## Site Config Options
-Once the particle is installed, Grav pages will support the following Site Config option:
-
-```
-hide_git_repo_link_pages:    # list of pages to hide Git Repository edit link on
-    - login
-    - logout                        
-```
-
 This Particle is also included in the [Grav OER Content Space Skeleton](https://github.com/hibbitts-design/grav-skeleton-oer-content-space).
