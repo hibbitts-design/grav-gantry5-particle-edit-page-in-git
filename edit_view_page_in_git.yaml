@@ -39,8 +39,8 @@ form:
     git_repo_tree_url:
         type: input.url
         label: Git Repository Tree URL (not including '/pages/...')
-        help: URL path to Git repository, up to but not including '/pages/...'.
-        description: URL path to Git repository, up to but not including '/pages/...'.
+        help: URL path to the pages folder, but with '/pages' and everything following it removed.
+        description: URL path to the pages folder, but with '/pages' and everything following it removed.
         validate:
             type: URL
 
